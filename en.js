@@ -431,6 +431,18 @@ module.exports = {
         }
     },
 
+    ping: {
+        pinging: `Pinging...`,
+        networkError: `Network Error`,
+        excellent: `Excellent`,
+        good: `Good`,
+        high: `High`,
+        severeLag: `Severe Lag`,
+        pong: `🏓 Pong!`,
+        wsPingTitle: `📡 Websocket Ping`,
+        msgLatencyTitle: `⏱️ Message Latency`,
+    },
+
     backup: {
         error: `An unexpected error occurred while processing your backup command. Please try again later.`,
         create: {
