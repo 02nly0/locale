@@ -431,6 +431,18 @@ module.exports = {
         }
     },
 
+    ping: {
+        pinging: `通信中...`,
+        networkError: `ネットワークエラー`,
+        excellent: `優秀`,
+        good: `良好`,
+        high: `高い`,
+        severeLag: `深刻な遅延`,
+        pong: `🏓 ポン！`,
+        wsPingTitle: `📡 WebSocket Ping`,
+        msgLatencyTitle: `⏱️ メッセージの遅延`,
+    },
+
     backup: {
         error: `バックアップコマンドの処理中に予期しないエラーが発生しました。後でもう一度お試しください。`,
         create: {
