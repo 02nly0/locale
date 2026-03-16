@@ -408,7 +408,7 @@ module.exports = {
         mass_title: `طرد الجميع`,
         mass_desc: `تم طرد جميع الاعضاء من **{channel}**.`,
         success: `تم طرد من الفويس.`,
-        no_premium: `العضو مش مشترك بريمير.`
+        no_premium: `لازم اشتراك بريمير عشان تستخدم الميزة دي.`
     },
 
     addemoji: {
