@@ -207,6 +207,7 @@ module.exports = {
             host: `المستضيف`,
             ends: `ينتهي`,
             enterButton: `شارك`,
+            participants: `المشاركون`,
             footer: `هدية`,
             success: `تم بدء الهدية في {{channel}}!`,
         },

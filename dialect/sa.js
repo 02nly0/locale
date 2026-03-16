@@ -207,6 +207,7 @@ module.exports = {
             host: `المعزب`,
             ends: `يخلص`,
             enterButton: `قط وجهك`,
+            participants: ``,
             footer: `قيف أواي`,
             success: `بدأنا القيف أواي في {{channel}}! حماس!`,
         },

@@ -213,6 +213,7 @@ module.exports = {
             host: `صاحب الجيفاوي`,
             ends: `هيخلص`,
             enterButton: `شارك`,
+            participants: ``,
             footer: `جيفاوي`,
             success: `تم بدء الجيفاوي في {{channel}}!`,
         },

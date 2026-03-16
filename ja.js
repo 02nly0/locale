@@ -207,6 +207,7 @@ module.exports = {
             host: `主催者`,
             ends: `終了`,
             enterButton: `参加`,
+            participants: `参加者`,
             footer: `ギブアウェイ`,
             success: `{{channel}}でギブアウェイを開始しました！`,
         },

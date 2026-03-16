@@ -207,6 +207,7 @@ module.exports = {
             host: `Host`,
             ends: `Ends`,
             enterButton: `Enter`,
+            participants: `Participants`,
             footer: `Giveaway`,
             success: `Giveaway started in {{channel}}!`,
         },
@@ -238,6 +239,15 @@ module.exports = {
             alreadyEnded: `This giveaway has already ended!`,
             alreadyEntered: `You have already entered this giveaway!`,
             success: `🎉 You have successfully entered the giveaway!`,
+        },
+        edit: {
+            notFound: `Giveaway not found in this server.`,
+            notRunning: `This giveaway is already ended or canceled. Only running giveaways can be edited.`,
+            noChanges: `You must provide at least one field to edit.`,
+            prize: `Prize`,
+            description: `Description`,
+            duration: `Duration`,
+            success: `Giveaway updated successfully.`,
         },
     },
 
