@@ -57,13 +57,13 @@ module.exports = {
         userNotBanned: `**${warning} المستخدم مش واخد بان.**`,
         unbanned: `**${correct} تم فك البان من المستخدم {{user}} بنجاح. \n${reason} السبب: {{reason}}**`,
         error: `**${incorrect} فشل في إلغاء حظر المستخدم. الخطأ: {{error}}**`,
-        no_premium: ``,
-        noBans: ``,
-        massTitle: ``,
-        massDesc: ``,
-        massSuccess: ``,
-        massFailed: ``,
-        massReason: ``,
+        no_premium: `**${warning}لازم يكون متوفر اشتراك بريمير، حدث خطتك واستخدم الامر مره اخري.**`,
+        noBans: `**${warning} مفيش اعضاء واخدين بان في السيرفر.**`,
+        massTitle: `فك الحظر للكل`,
+        massDesc: `تم فك البان من جميع الاعضاء`,
+        massSuccess: `تم فك البان`,
+        massFailed: `فشل`,
+        massReason: `السبب`,
     },
     lock: {
         channelNotFound: `**${incorrect} مش لاقي الروم دي.**`,
@@ -220,7 +220,7 @@ module.exports = {
             host: `صاحب الجيفاوي`,
             ends: `هيخلص`,
             enterButton: `شارك`,
-            participants: ``,
+            participants: `المشاركين`,
             footer: `جيفاوي`,
             success: `تم بدء الجيفاوي في {{channel}}!`,
         },
@@ -408,7 +408,7 @@ module.exports = {
         mass_title: `طرد الجميع`,
         mass_desc: `تم طرد جميع الاعضاء من **{channel}**.`,
         success: `تم طرد من الفويس.`,
-        no_premium: ``
+        no_premium: `العضو مش مشترك بريمير.`
     },
 
     addemoji: {
